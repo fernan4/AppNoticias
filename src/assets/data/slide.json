@@ -1,0 +1,27 @@
+[
+    {
+        "img": "assets/img/google.jpg",
+        "titulo": "Google renueva su software para altavoces inteligentes",
+        "url":"https://www.xataka.com/otros-dispositivos/google-renueva-su-software-para-altavoces-inteligentes-pantalla-nueva-interfaz-controles-integraciones"
+    },
+    {
+        "img": "assets/img/samsung.jpg",
+        "titulo": "La primera filtración de los posibles Samsung Galaxy S21 y S21 Ultra",
+        "url": "https://www.xataka.com/moviles/primera-filtracion-posibles-samsung-galaxy-s21-s21-ultra-deja-ver-nuevo-diseno-su-fecha-lanzamiento"
+    }, 
+    {
+        "img": "assets/img/ejer.jpg",
+        "titulo": "Si pasas mucho tiempo sentado frente al ordenador aquí tienes una rutina de estiramientos",
+        "url":"https://www.xataka.com/medicina-y-salud/te-pasas-mucho-tiempo-sentado-frente-al-ordenador-aqui-tienes-rutina-estiramientos-ejercicios-posturales-para-hacer-casa"
+    },
+    {
+        "img": "assets/img/Refri.jpg",
+        "titulo": "La refrigeración inteligente de Playstation 5",
+        "url":"https://www.xataka.com/videojuegos/playstation-5-recogera-datos-rendimiento-juegos-que-ejecute-para-mejorar-sistema-refrigeracion-actualizaciones"
+    },
+    {
+        "img": "assets/img/Xiaomi.jpg",
+        "titulo": "Xiaomi muestra un sistema de carga rápida inalámbrica de 80W ",
+        "url":"https://www.xataka.com/accesorios/xiaomi-muestra-sistema-carga-rapida-inalambrica-80w-que-asegura-carga-al-100-19-minutos"
+    }
+]

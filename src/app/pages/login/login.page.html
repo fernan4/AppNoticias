@@ -1,0 +1,35 @@
+<ion-header no-border>
+  <div class="login-header ion-padding" >
+    <img class="logo-img"  src="assets/img/noticias.png">
+    <ion-title class="titulo-logo">TechMeek</ion-title>
+ </div> 
+ 
+</ion-header>
+
+
+<ion-content>
+  <div class="center">
+    <div heading-column-lr>
+      <h1 big-heading>Iniciar Sesion</h1>
+    </div>
+    
+    <ion-label>Un hombre elige, un esclavo obedece.</ion-label>
+   
+      <ion-item transparent>
+        <img icon-small  src="assets/img/usuario.png" alt="">
+        <ion-input  [(ngModel)]="email" placeholder="e-mail" type="text" required></ion-input>
+      </ion-item>
+  
+      <ion-item transparent>
+        <img icon-small  src="assets/img/candado.png" alt="">
+        <ion-input  [(ngModel)]="password"  placeholder="Password" type="password" required></ion-input>
+      </ion-item>
+      <div lineaspace></div>
+      <ion-button (click)="onSubmitLogin()" class="ion-button-class" color="dark" expand="block" fill="solid" size="large" shape="round">
+        INICIAR
+      </ion-button> 
+      <p class="text" routerLink="/registro">Crear cuenta</p>  
+      
+  </div>
+
+</ion-content>

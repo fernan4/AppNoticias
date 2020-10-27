@@ -1,0 +1,14 @@
+[
+    {
+        "img": "assets/img/contenido.png",
+        "titulo": "Buen contenido"
+    },
+    {
+        "img": "assets/img/interfaz.png",
+        "titulo": "Diseño agradable"
+    },
+    {
+        "img": "assets/img/periodico.png",
+        "titulo": "Lo mas nuevo en noticias"
+    }
+]

@@ -1,0 +1,27 @@
+<ion-content>
+  <ion-slides pager="true">
+    <ion-slide class="splash" *ngFor="let item of Splash|async">
+      <div class="splash-img-padding">
+        <img [src]="item.img" alt="">
+      </div>
+      <div class="subtitulo">
+        <h1>{{item.titulo}}</h1>
+      </div>
+      
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-grid fixed  >
+    <ion-row>
+      <ion-col size="10" offset="1">
+        <ion-button color="dark" (click)="navegar()" expand="full" shape="round" mode="ios" class="btn-primary">
+          COMENZAR
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+ 
+</ion-footer>

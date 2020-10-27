@@ -1,0 +1,22 @@
+[
+    {
+      "url":"/inicio",
+      "icono":"home-outline",
+      "texto":"Inicio"
+    },
+    {
+      "url":"/perfil",
+      "icono":"person-circle-outline",
+      "texto":"Perfil"
+    },
+    {
+      "url":"/info",
+      "icono":"information-circle-outline",
+      "texto":"info"
+    },
+    {
+      "url":"/login",
+      "icono":"log-in-outline",
+      "texto":"cerrar sesion"
+    }
+]

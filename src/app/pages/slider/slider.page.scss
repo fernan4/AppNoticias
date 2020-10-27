@@ -1,0 +1,31 @@
+ion-slides{
+    top: 90px;
+    --bullet-background: gray;
+    --bullet-background-active:#8890B2;
+}
+.splash{
+    display: block;
+}
+.splash-img-padding{
+    padding: 40px;
+    
+}
+.subtitulo{
+    padding: 0px;
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: lighter;
+}
+.btn-primary{
+    height: 60px;
+}
+ion-footer{
+    top: -50px;
+}
+@media screen and (max-height: 775px){
+    img{
+        width: 70%;
+    }
+
+}
+

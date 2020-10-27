@@ -1,0 +1,27 @@
+[
+   
+    
+    {
+      "url":"/moviles",
+      "imagen":"https://www.elcomercio.com/files/article_main_simple/uploads/2020/07/31/5f2470d6ac26a.jpeg",
+      "texto":"Moviles"
+
+    },
+    {
+      "url":"/pc",
+      "imagen":"https://www.elcomercio.com/files/article_main_simple/uploads/2020/07/31/5f2470d6ac26a.jpeg",
+      "texto":"Pc"
+
+    },
+    {
+      "url":"/juegos",
+      "imagen":"https://www.elcomercio.com/files/article_main_simple/uploads/2020/07/31/5f2470d6ac26a.jpeg",
+      "texto":"Juegos"
+    },
+    {
+      "url":"/entretenimiento",
+      "imagen":"https://www.elcomercio.com/files/article_main_simple/uploads/2020/07/31/5f2470d6ac26a.jpeg",
+      "texto":"Entretenimiento"
+
+    }
+]

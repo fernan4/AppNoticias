@@ -1,0 +1,114 @@
+.login-header{
+    background: var(--theme-black);
+   
+}
+.login-header{
+    position: relative;
+    background: var(--theme-black);
+    border-radius: 0em;
+    color: white;
+    height: 150px;
+
+}
+.titulo-logo{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: -60px;
+    font-weight: bold;;
+}
+.login-header:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+    left: 12%;
+    width: 300px;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: var(--theme-black);
+    border-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+.logo-img{
+    display: block;
+    width: 80px;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+[heading-column-lr]{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+[big-heading]{
+    font-family: "Diagramm-Regular" !important;
+    font-size: 30px !important;
+    color: var(--theme-black);
+    margin: auto;
+}
+[small-heading]{
+    font-size: "heebo-regular" !important;
+    margin-left: auto;
+    padding-right: 40px;
+    font-size: 15px;
+}
+.text{
+    margin-left: 120px;
+}
+ion-label{
+    color: #000;
+    opacity: .8;
+    font-size: 13px;
+    display: block;
+}
+ion-content{
+    --background: white;
+}
+[transparent]{
+    background: transparent;
+
+}
+ion-input{
+    --color: #000;
+    --padding-botton: 15px;
+    --padding-top: 15px;
+    --padding-start: 5px;
+    font-size:15px;
+    text-indent: 1px;
+    padding-left: 10px !important;
+
+}
+[icon-small]{
+    width: 30px;
+
+}
+ion-item{
+    --highlight-color-focused:transparent;
+    --highlight-height: 0;
+    --highlight-color-invalided: #000;
+    --highlight-color-valided: #ddd;
+    --min-height: 65px;
+    --padding-start: 0;
+
+}
+[lineaspace]{
+    height: 30px;
+}
+ion-label{
+    color: #000;
+    opacity: .8;
+    font-size: 13px;
+    display: block;
+}
+.forget-password{
+    color: #000;
+    font-size: 13px;
+    text-align: right;
+    display: block;
+    padding: 10px;
+}

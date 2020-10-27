@@ -1,0 +1,220 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+/*:root{
+    --theme-color: #ffce00;
+    --theme-black: #000000;
+    --ion-color-gray: #d7d8da;
+}
+:root[mode=ios],
+:root[mode=md]{
+    --ion-font-family: "Heebo-Regular" !important;
+    font-family:  "Heebo-Regular", "Times New Roman", serif !important;
+
+}*/
+
+
+#img1{
+    height: 100px;
+    width: 350px;
+
+}
+ion-header{
+    height: 0px;
+}
+.slide-full{
+    height: 100% !important;
+}
+ion-card{
+    overflow: unset !important;
+}
+ion-card{
+    height: 400px;
+    width: 380px;
+}
+.slide-image{
+    width: 100px;
+    height: 250px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 45px;
+}
+.ion-slide-padding{
+    display: block;
+    
+    h3{
+        padding: 30px;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+    
+}
+ion-card-header{
+    position: relative;
+    top: 10px;
+}
+ion-card-content{
+    position: relative;
+    text-align: justify;
+    top: 5px;
+}
+.avatar{
+    width: 50px;
+    display: block;
+    margin-left: auto ;
+    margin-top: auto;
+
+}
+/*logo{
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}*/
+.ion-avatar2{
+    
+    width: 35px;
+    height: 35px;
+    position: relative;
+    img{
+        margin-left: 70px; 
+    }
+  
+}
+.principal-titulo{
+    margin-left: 50px;
+    
+}
+.text{
+    margin-left: 135px;
+}
+.menu-header-bg{
+    height: 130px;
+    width: 305px;
+    background: gray;
+    background: linear-gradient(90deg,black 0%, black 100%);
+    //box-shadow: 0px 1px 10px rgba(98,140,225, 0.5);
+    //transform: rotate(-15deg);
+    border-radius: 0px 5px 50px 50px  ;
+    /*margin-left: -18px;
+    margin-top: -50px;*/
+    margin-bottom: 30px;
+}
+
+.header-content{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 7px solid black;
+    }
+    h1{
+        font-weight: 300;
+        font-size: 15px;
+        color: white;
+    }
+    p{
+        font-size: 12px;
+        color: #e4e4e4;
+        font-weight: 100;
+        letter-spacing: 0.4px;
+    }
+    
+}
+.menu-items{
+    margin: 0px;
+
+    ion-icon{
+        margin-right: 20px;
+        color: #86979f;
+    }
+    ion-item{
+        padding-left: 40px;
+        margin-bottom: 10px;
+    }
+    /*.active{
+        border-left:  5px solid;
+        color: black;
+        padding-left: 15px;
+        ion-icon{
+            color: black;
+        }
+    }*/
+}
+.menu-itms{
+    margin: 0px;
+    ion-icon{
+        margin-right: 10px;
+        color: #86979f;
+    }
+    ion-item{
+        padding-left: 32px;
+        margin-bottom: 10px;
+    }
+}
+
+.btn-inicio{
+    height: 50px;
+}
+.info{
+    img{
+        width: 70px;
+        height: 70px;
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+    .logo{
+        font-size: 55px;
+        font: bold;
+        margin-top: -70px;
+        margin-left: 80px;
+    }
+    ion-item{
+        padding: 30px;
+        
+        margin-left: 10px;
+    }
+   
+}
+
+/*ion-content{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+}*/
+
+

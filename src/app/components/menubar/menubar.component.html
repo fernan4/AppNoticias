@@ -1,0 +1,40 @@
+<ion-menu side="start" menuId="menup" contentId="menuPrincipal">
+ 
+  <ion-content>
+    <div class="menu-header-bg"></div>
+    <div class="header-content">
+      <img src="/assets/img/user.png" alt="">
+      <ion-label>
+        <h1>{{email}}</h1>
+      </ion-label>
+      <ion-label class="user">
+        <p>User</p>
+      </ion-label>
+    </div>
+    <ion-list lines="none" class="menu-items" *ngFor="let item of menuPrincipal|async">
+      <ion-item (click)="navegar(item.url)" class="active">
+        <ion-icon slot="start" [name]="item.icono"></ion-icon>
+        <ion-label color="dark" class="mayus">{{item.texto}}</ion-label>
+      </ion-item>
+    </ion-list>
+
+
+
+
+   
+  </ion-content>
+  
+    <ion-toolbar>
+      
+      <ion-list lines="none" class="menu-itms">
+        <ion-item>
+          
+          <label>Zumbi, Zamora Ch, Ecuador</label>
+        </ion-item>
+      </ion-list>   
+    </ion-toolbar>
+  
+  
+
+</ion-menu>
+ 

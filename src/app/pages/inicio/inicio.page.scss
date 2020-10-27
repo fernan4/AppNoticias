@@ -1,0 +1,26 @@
+/*.login-header:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+    left: 15%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: var(--theme-color);
+    border-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+  }*/
+
+  Abrir{
+    display: flex;
+    position: relative;
+    margin-top: -250px;
+  }
+  ion-slides{
+    --bullet-background: gray;
+    --bullet-background-active:#8890B2;
+  }
+
+

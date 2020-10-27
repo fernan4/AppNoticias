@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-2257c": {
+      "hosting": {
+        "app": [
+          "login-2257c"
+        ]
+      }
+    }
+  }
+}
